@@ -7,6 +7,8 @@
  * Return: a pointer to the new root node of the tree after removal
  *         NULL on failure
  */
+
+
 bst_t *bst_remove(bst_t *root, int value)
 {
 	bst_t *tmp = NULL;
@@ -44,6 +46,8 @@ bst_t *bst_remove(bst_t *root, int value)
  * @root: a pointer to the root node of the tree
  * Return: a pointer to the smallest node
  */
+
+
 bst_t *bst_min_val(bst_t *root)
 {
 	bst_t *min = root;
